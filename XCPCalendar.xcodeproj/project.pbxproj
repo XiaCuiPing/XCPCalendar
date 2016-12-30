@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		187320D81E1117BA0093A86D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 187320D71E1117BA0093A86D /* main.m */; };
+		187320DB1E1117BA0093A86D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 187320DA1E1117BA0093A86D /* AppDelegate.m */; };
+		187320DE1E1117BA0093A86D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187320DD1E1117BA0093A86D /* ViewController.m */; };
+		187320E11E1117BA0093A86D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187320DF1E1117BA0093A86D /* Main.storyboard */; };
+		187320E41E1117BA0093A86D /* XCPCalendar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 187320E21E1117BA0093A86D /* XCPCalendar.xcdatamodeld */; };
+		187320E61E1117BA0093A86D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 187320E51E1117BA0093A86D /* Assets.xcassets */; };
+		187320E91E1117BA0093A86D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187320E71E1117BA0093A86D /* LaunchScreen.storyboard */; };
+		187320F41E1117BA0093A86D /* XCPCalendarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 187320F31E1117BA0093A86D /* XCPCalendarUITests.m */; };
+		187321001E1118C10093A86D /* XCPCellDateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 187320FF1E1118C10093A86D /* XCPCellDateModel.m */; };
+		187321061E1119B30093A86D /* XCPDateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 187321051E1119B30093A86D /* XCPDateModel.m */; };
+		187321091E111A050093A86D /* XCPDateTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 187321081E111A050093A86D /* XCPDateTools.m */; };
+		1873210C1E111A240093A86D /* XCPDateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1873210B1E111A240093A86D /* XCPDateView.m */; };
+		1873210F1E111A830093A86D /* XCPLinearView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1873210E1E111A830093A86D /* XCPLinearView.m */; };
+		187321121E111AC00093A86D /* XCPCalendarScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 187321111E111AC00093A86D /* XCPCalendarScrollView.m */; };
+		187321151E111AE50093A86D /* XCPCalendarScrollViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 187321141E111AE50093A86D /* XCPCalendarScrollViewCell.m */; };
+		187321191E11264E0093A86D /* HomeCalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187321181E11264E0093A86D /* HomeCalendarViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		187320F01E1117BA0093A86D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 187320CB1E1117BA0093A86D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 187320D21E1117BA0093A86D;
+			remoteInfo = XCPCalendar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		187320D31E1117BA0093A86D /* XCPCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XCPCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		187320D71E1117BA0093A86D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		187320D91E1117BA0093A86D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		187320DA1E1117BA0093A86D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		187320DC1E1117BA0093A86D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		187320DD1E1117BA0093A86D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		187320E01E1117BA0093A86D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		187320E31E1117BA0093A86D /* XCPCalendar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = XCPCalendar.xcdatamodel; sourceTree = "<group>"; };
+		187320E51E1117BA0093A86D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		187320E81E1117BA0093A86D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		187320EA1E1117BA0093A86D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		187320EF1E1117BA0093A86D /* XCPCalendarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XCPCalendarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		187320F31E1117BA0093A86D /* XCPCalendarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XCPCalendarUITests.m; sourceTree = "<group>"; };
+		187320F51E1117BA0093A86D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		187320FE1E1118C10093A86D /* XCPCellDateModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCPCellDateModel.h; sourceTree = "<group>"; };
+		187320FF1E1118C10093A86D /* XCPCellDateModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCPCellDateModel.m; sourceTree = "<group>"; };
+		187321041E1119B30093A86D /* XCPDateModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCPDateModel.h; sourceTree = "<group>"; };
+		187321051E1119B30093A86D /* XCPDateModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCPDateModel.m; sourceTree = "<group>"; };
+		187321071E111A050093A86D /* XCPDateTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCPDateTools.h; sourceTree = "<group>"; };
+		187321081E111A050093A86D /* XCPDateTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCPDateTools.m; sourceTree = "<group>"; };
+		1873210A1E111A240093A86D /* XCPDateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCPDateView.h; sourceTree = "<group>"; };
+		1873210B1E111A240093A86D /* XCPDateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCPDateView.m; sourceTree = "<group>"; };
+		1873210D1E111A830093A86D /* XCPLinearView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCPLinearView.h; sourceTree = "<group>"; };
+		1873210E1E111A830093A86D /* XCPLinearView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCPLinearView.m; sourceTree = "<group>"; };
+		187321101E111AC00093A86D /* XCPCalendarScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCPCalendarScrollView.h; sourceTree = "<group>"; };
+		187321111E111AC00093A86D /* XCPCalendarScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCPCalendarScrollView.m; sourceTree = "<group>"; };
+		187321131E111AE50093A86D /* XCPCalendarScrollViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCPCalendarScrollViewCell.h; sourceTree = "<group>"; };
+		187321141E111AE50093A86D /* XCPCalendarScrollViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCPCalendarScrollViewCell.m; sourceTree = "<group>"; };
+		187321161E1122BF0093A86D /* XCPConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XCPConfig.h; sourceTree = "<group>"; };
+		187321171E11264E0093A86D /* HomeCalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeCalendarViewController.h; sourceTree = "<group>"; };
+		187321181E11264E0093A86D /* HomeCalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeCalendarViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		187320D01E1117BA0093A86D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187320EC1E1117BA0093A86D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		187320CA1E1117BA0093A86D = {
+			isa = PBXGroup;
+			children = (
+				187320D51E1117BA0093A86D /* XCPCalendar */,
+				187320F21E1117BA0093A86D /* XCPCalendarUITests */,
+				187320D41E1117BA0093A86D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		187320D41E1117BA0093A86D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				187320D31E1117BA0093A86D /* XCPCalendar.app */,
+				187320EF1E1117BA0093A86D /* XCPCalendarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		187320D51E1117BA0093A86D /* XCPCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				187321161E1122BF0093A86D /* XCPConfig.h */,
+				187320D91E1117BA0093A86D /* AppDelegate.h */,
+				187320DA1E1117BA0093A86D /* AppDelegate.m */,
+				187320DC1E1117BA0093A86D /* ViewController.h */,
+				187320DD1E1117BA0093A86D /* ViewController.m */,
+				187320FE1E1118C10093A86D /* XCPCellDateModel.h */,
+				187320FF1E1118C10093A86D /* XCPCellDateModel.m */,
+				187321041E1119B30093A86D /* XCPDateModel.h */,
+				187321051E1119B30093A86D /* XCPDateModel.m */,
+				187321071E111A050093A86D /* XCPDateTools.h */,
+				187321081E111A050093A86D /* XCPDateTools.m */,
+				1873210A1E111A240093A86D /* XCPDateView.h */,
+				1873210B1E111A240093A86D /* XCPDateView.m */,
+				1873210D1E111A830093A86D /* XCPLinearView.h */,
+				1873210E1E111A830093A86D /* XCPLinearView.m */,
+				187321101E111AC00093A86D /* XCPCalendarScrollView.h */,
+				187321111E111AC00093A86D /* XCPCalendarScrollView.m */,
+				187321131E111AE50093A86D /* XCPCalendarScrollViewCell.h */,
+				187321141E111AE50093A86D /* XCPCalendarScrollViewCell.m */,
+				187321171E11264E0093A86D /* HomeCalendarViewController.h */,
+				187321181E11264E0093A86D /* HomeCalendarViewController.m */,
+				187320DF1E1117BA0093A86D /* Main.storyboard */,
+				187320E51E1117BA0093A86D /* Assets.xcassets */,
+				187320E71E1117BA0093A86D /* LaunchScreen.storyboard */,
+				187320EA1E1117BA0093A86D /* Info.plist */,
+				187320E21E1117BA0093A86D /* XCPCalendar.xcdatamodeld */,
+				187320D61E1117BA0093A86D /* Supporting Files */,
+			);
+			path = XCPCalendar;
+			sourceTree = "<group>";
+		};
+		187320D61E1117BA0093A86D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				187320D71E1117BA0093A86D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		187320F21E1117BA0093A86D /* XCPCalendarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				187320F31E1117BA0093A86D /* XCPCalendarUITests.m */,
+				187320F51E1117BA0093A86D /* Info.plist */,
+			);
+			path = XCPCalendarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		187320D21E1117BA0093A86D /* XCPCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 187320F81E1117BA0093A86D /* Build configuration list for PBXNativeTarget "XCPCalendar" */;
+			buildPhases = (
+				187320CF1E1117BA0093A86D /* Sources */,
+				187320D01E1117BA0093A86D /* Frameworks */,
+				187320D11E1117BA0093A86D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XCPCalendar;
+			productName = XCPCalendar;
+			productReference = 187320D31E1117BA0093A86D /* XCPCalendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		187320EE1E1117BA0093A86D /* XCPCalendarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 187320FB1E1117BA0093A86D /* Build configuration list for PBXNativeTarget "XCPCalendarUITests" */;
+			buildPhases = (
+				187320EB1E1117BA0093A86D /* Sources */,
+				187320EC1E1117BA0093A86D /* Frameworks */,
+				187320ED1E1117BA0093A86D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				187320F11E1117BA0093A86D /* PBXTargetDependency */,
+			);
+			name = XCPCalendarUITests;
+			productName = XCPCalendarUITests;
+			productReference = 187320EF1E1117BA0093A86D /* XCPCalendarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		187320CB1E1117BA0093A86D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "夏翠萍";
+				TargetAttributes = {
+					187320D21E1117BA0093A86D = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					187320EE1E1117BA0093A86D = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 187320D21E1117BA0093A86D;
+					};
+				};
+			};
+			buildConfigurationList = 187320CE1E1117BA0093A86D /* Build configuration list for PBXProject "XCPCalendar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 187320CA1E1117BA0093A86D;
+			productRefGroup = 187320D41E1117BA0093A86D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				187320D21E1117BA0093A86D /* XCPCalendar */,
+				187320EE1E1117BA0093A86D /* XCPCalendarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		187320D11E1117BA0093A86D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187320E91E1117BA0093A86D /* LaunchScreen.storyboard in Resources */,
+				187320E61E1117BA0093A86D /* Assets.xcassets in Resources */,
+				187320E11E1117BA0093A86D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187320ED1E1117BA0093A86D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		187320CF1E1117BA0093A86D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187320DE1E1117BA0093A86D /* ViewController.m in Sources */,
+				187321091E111A050093A86D /* XCPDateTools.m in Sources */,
+				1873210F1E111A830093A86D /* XCPLinearView.m in Sources */,
+				187320E41E1117BA0093A86D /* XCPCalendar.xcdatamodeld in Sources */,
+				187320DB1E1117BA0093A86D /* AppDelegate.m in Sources */,
+				187321191E11264E0093A86D /* HomeCalendarViewController.m in Sources */,
+				187321121E111AC00093A86D /* XCPCalendarScrollView.m in Sources */,
+				1873210C1E111A240093A86D /* XCPDateView.m in Sources */,
+				187321001E1118C10093A86D /* XCPCellDateModel.m in Sources */,
+				187321151E111AE50093A86D /* XCPCalendarScrollViewCell.m in Sources */,
+				187320D81E1117BA0093A86D /* main.m in Sources */,
+				187321061E1119B30093A86D /* XCPDateModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187320EB1E1117BA0093A86D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187320F41E1117BA0093A86D /* XCPCalendarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		187320F11E1117BA0093A86D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 187320D21E1117BA0093A86D /* XCPCalendar */;
+			targetProxy = 187320F01E1117BA0093A86D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		187320DF1E1117BA0093A86D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				187320E01E1117BA0093A86D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		187320E71E1117BA0093A86D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				187320E81E1117BA0093A86D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		187320F61E1117BA0093A86D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		187320F71E1117BA0093A86D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		187320F91E1117BA0093A86D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XCPCalendar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dome.XCPCalendar.XCPCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		187320FA1E1117BA0093A86D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XCPCalendar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dome.XCPCalendar.XCPCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		187320FC1E1117BA0093A86D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XCPCalendarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dome.XCPCalendar.XCPCalendarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XCPCalendar;
+			};
+			name = Debug;
+		};
+		187320FD1E1117BA0093A86D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XCPCalendarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dome.XCPCalendar.XCPCalendarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XCPCalendar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		187320CE1E1117BA0093A86D /* Build configuration list for PBXProject "XCPCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187320F61E1117BA0093A86D /* Debug */,
+				187320F71E1117BA0093A86D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		187320F81E1117BA0093A86D /* Build configuration list for PBXNativeTarget "XCPCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187320F91E1117BA0093A86D /* Debug */,
+				187320FA1E1117BA0093A86D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		187320FB1E1117BA0093A86D /* Build configuration list for PBXNativeTarget "XCPCalendarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187320FC1E1117BA0093A86D /* Debug */,
+				187320FD1E1117BA0093A86D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		187320E21E1117BA0093A86D /* XCPCalendar.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				187320E31E1117BA0093A86D /* XCPCalendar.xcdatamodel */,
+			);
+			currentVersion = 187320E31E1117BA0093A86D /* XCPCalendar.xcdatamodel */;
+			path = XCPCalendar.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 187320CB1E1117BA0093A86D /* Project object */;
+}
