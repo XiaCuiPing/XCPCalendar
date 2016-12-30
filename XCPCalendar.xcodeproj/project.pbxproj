@@ -15,14 +15,14 @@
 		187320E61E1117BA0093A86D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 187320E51E1117BA0093A86D /* Assets.xcassets */; };
 		187320E91E1117BA0093A86D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187320E71E1117BA0093A86D /* LaunchScreen.storyboard */; };
 		187320F41E1117BA0093A86D /* XCPCalendarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 187320F31E1117BA0093A86D /* XCPCalendarUITests.m */; };
-		187321001E1118C10093A86D /* XCPCellDateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 187320FF1E1118C10093A86D /* XCPCellDateModel.m */; };
-		187321061E1119B30093A86D /* XCPDateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 187321051E1119B30093A86D /* XCPDateModel.m */; };
-		187321091E111A050093A86D /* XCPDateTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 187321081E111A050093A86D /* XCPDateTools.m */; };
-		1873210C1E111A240093A86D /* XCPDateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1873210B1E111A240093A86D /* XCPDateView.m */; };
-		1873210F1E111A830093A86D /* XCPLinearView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1873210E1E111A830093A86D /* XCPLinearView.m */; };
-		187321121E111AC00093A86D /* XCPCalendarScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 187321111E111AC00093A86D /* XCPCalendarScrollView.m */; };
-		187321151E111AE50093A86D /* XCPCalendarScrollViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 187321141E111AE50093A86D /* XCPCalendarScrollViewCell.m */; };
-		187321191E11264E0093A86D /* HomeCalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187321181E11264E0093A86D /* HomeCalendarViewController.m */; };
+		189C817A1E1655A700DF089B /* XCPCellDateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 189C81681E1655A700DF089B /* XCPCellDateModel.m */; };
+		189C817B1E1655A700DF089B /* XCPDateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 189C816A1E1655A700DF089B /* XCPDateModel.m */; };
+		189C817C1E1655A700DF089B /* HomeCalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189C816E1E1655A700DF089B /* HomeCalendarViewController.m */; };
+		189C817D1E1655A700DF089B /* XCPCalendarScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 189C81701E1655A700DF089B /* XCPCalendarScrollView.m */; };
+		189C817E1E1655A700DF089B /* XCPCalendarScrollViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 189C81721E1655A700DF089B /* XCPCalendarScrollViewCell.m */; };
+		189C817F1E1655A700DF089B /* XCPDateTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 189C81741E1655A700DF089B /* XCPDateTools.m */; };
+		189C81801E1655A700DF089B /* XCPDateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 189C81761E1655A700DF089B /* XCPDateView.m */; };
+		189C81811E1655A700DF089B /* XCPLinearView.m in Sources */ = {isa = PBXBuildFile; fileRef = 189C81781E1655A700DF089B /* XCPLinearView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,23 +50,23 @@
 		187320EF1E1117BA0093A86D /* XCPCalendarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XCPCalendarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		187320F31E1117BA0093A86D /* XCPCalendarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XCPCalendarUITests.m; sourceTree = "<group>"; };
 		187320F51E1117BA0093A86D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		187320FE1E1118C10093A86D /* XCPCellDateModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCPCellDateModel.h; sourceTree = "<group>"; };
-		187320FF1E1118C10093A86D /* XCPCellDateModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCPCellDateModel.m; sourceTree = "<group>"; };
-		187321041E1119B30093A86D /* XCPDateModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCPDateModel.h; sourceTree = "<group>"; };
-		187321051E1119B30093A86D /* XCPDateModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCPDateModel.m; sourceTree = "<group>"; };
-		187321071E111A050093A86D /* XCPDateTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCPDateTools.h; sourceTree = "<group>"; };
-		187321081E111A050093A86D /* XCPDateTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCPDateTools.m; sourceTree = "<group>"; };
-		1873210A1E111A240093A86D /* XCPDateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCPDateView.h; sourceTree = "<group>"; };
-		1873210B1E111A240093A86D /* XCPDateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCPDateView.m; sourceTree = "<group>"; };
-		1873210D1E111A830093A86D /* XCPLinearView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCPLinearView.h; sourceTree = "<group>"; };
-		1873210E1E111A830093A86D /* XCPLinearView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCPLinearView.m; sourceTree = "<group>"; };
-		187321101E111AC00093A86D /* XCPCalendarScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCPCalendarScrollView.h; sourceTree = "<group>"; };
-		187321111E111AC00093A86D /* XCPCalendarScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCPCalendarScrollView.m; sourceTree = "<group>"; };
-		187321131E111AE50093A86D /* XCPCalendarScrollViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCPCalendarScrollViewCell.h; sourceTree = "<group>"; };
-		187321141E111AE50093A86D /* XCPCalendarScrollViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCPCalendarScrollViewCell.m; sourceTree = "<group>"; };
-		187321161E1122BF0093A86D /* XCPConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XCPConfig.h; sourceTree = "<group>"; };
-		187321171E11264E0093A86D /* HomeCalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeCalendarViewController.h; sourceTree = "<group>"; };
-		187321181E11264E0093A86D /* HomeCalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeCalendarViewController.m; sourceTree = "<group>"; };
+		189C81671E1655A700DF089B /* XCPCellDateModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCPCellDateModel.h; sourceTree = "<group>"; };
+		189C81681E1655A700DF089B /* XCPCellDateModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCPCellDateModel.m; sourceTree = "<group>"; };
+		189C81691E1655A700DF089B /* XCPDateModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCPDateModel.h; sourceTree = "<group>"; };
+		189C816A1E1655A700DF089B /* XCPDateModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCPDateModel.m; sourceTree = "<group>"; };
+		189C816D1E1655A700DF089B /* HomeCalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeCalendarViewController.h; sourceTree = "<group>"; };
+		189C816E1E1655A700DF089B /* HomeCalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeCalendarViewController.m; sourceTree = "<group>"; };
+		189C816F1E1655A700DF089B /* XCPCalendarScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCPCalendarScrollView.h; sourceTree = "<group>"; };
+		189C81701E1655A700DF089B /* XCPCalendarScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCPCalendarScrollView.m; sourceTree = "<group>"; };
+		189C81711E1655A700DF089B /* XCPCalendarScrollViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCPCalendarScrollViewCell.h; sourceTree = "<group>"; };
+		189C81721E1655A700DF089B /* XCPCalendarScrollViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCPCalendarScrollViewCell.m; sourceTree = "<group>"; };
+		189C81731E1655A700DF089B /* XCPDateTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCPDateTools.h; sourceTree = "<group>"; };
+		189C81741E1655A700DF089B /* XCPDateTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCPDateTools.m; sourceTree = "<group>"; };
+		189C81751E1655A700DF089B /* XCPDateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCPDateView.h; sourceTree = "<group>"; };
+		189C81761E1655A700DF089B /* XCPDateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCPDateView.m; sourceTree = "<group>"; };
+		189C81771E1655A700DF089B /* XCPLinearView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCPLinearView.h; sourceTree = "<group>"; };
+		189C81781E1655A700DF089B /* XCPLinearView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCPLinearView.m; sourceTree = "<group>"; };
+		189C81791E1655A700DF089B /* XCPConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCPConfig.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,27 +108,11 @@
 		187320D51E1117BA0093A86D /* XCPCalendar */ = {
 			isa = PBXGroup;
 			children = (
-				187321161E1122BF0093A86D /* XCPConfig.h */,
+				189C81651E1655A700DF089B /* calendar */,
 				187320D91E1117BA0093A86D /* AppDelegate.h */,
 				187320DA1E1117BA0093A86D /* AppDelegate.m */,
 				187320DC1E1117BA0093A86D /* ViewController.h */,
 				187320DD1E1117BA0093A86D /* ViewController.m */,
-				187320FE1E1118C10093A86D /* XCPCellDateModel.h */,
-				187320FF1E1118C10093A86D /* XCPCellDateModel.m */,
-				187321041E1119B30093A86D /* XCPDateModel.h */,
-				187321051E1119B30093A86D /* XCPDateModel.m */,
-				187321071E111A050093A86D /* XCPDateTools.h */,
-				187321081E111A050093A86D /* XCPDateTools.m */,
-				1873210A1E111A240093A86D /* XCPDateView.h */,
-				1873210B1E111A240093A86D /* XCPDateView.m */,
-				1873210D1E111A830093A86D /* XCPLinearView.h */,
-				1873210E1E111A830093A86D /* XCPLinearView.m */,
-				187321101E111AC00093A86D /* XCPCalendarScrollView.h */,
-				187321111E111AC00093A86D /* XCPCalendarScrollView.m */,
-				187321131E111AE50093A86D /* XCPCalendarScrollViewCell.h */,
-				187321141E111AE50093A86D /* XCPCalendarScrollViewCell.m */,
-				187321171E11264E0093A86D /* HomeCalendarViewController.h */,
-				187321181E11264E0093A86D /* HomeCalendarViewController.m */,
 				187320DF1E1117BA0093A86D /* Main.storyboard */,
 				187320E51E1117BA0093A86D /* Assets.xcassets */,
 				187320E71E1117BA0093A86D /* LaunchScreen.storyboard */,
@@ -154,6 +138,54 @@
 				187320F51E1117BA0093A86D /* Info.plist */,
 			);
 			path = XCPCalendarUITests;
+			sourceTree = "<group>";
+		};
+		189C81651E1655A700DF089B /* calendar */ = {
+			isa = PBXGroup;
+			children = (
+				189C81661E1655A700DF089B /* Model */,
+				189C816B1E1655A700DF089B /* UI */,
+				189C816C1E1655A700DF089B /* View */,
+				189C81791E1655A700DF089B /* XCPConfig.h */,
+			);
+			path = calendar;
+			sourceTree = "<group>";
+		};
+		189C81661E1655A700DF089B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				189C81671E1655A700DF089B /* XCPCellDateModel.h */,
+				189C81681E1655A700DF089B /* XCPCellDateModel.m */,
+				189C81691E1655A700DF089B /* XCPDateModel.h */,
+				189C816A1E1655A700DF089B /* XCPDateModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		189C816B1E1655A700DF089B /* UI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		189C816C1E1655A700DF089B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				189C816D1E1655A700DF089B /* HomeCalendarViewController.h */,
+				189C816E1E1655A700DF089B /* HomeCalendarViewController.m */,
+				189C816F1E1655A700DF089B /* XCPCalendarScrollView.h */,
+				189C81701E1655A700DF089B /* XCPCalendarScrollView.m */,
+				189C81711E1655A700DF089B /* XCPCalendarScrollViewCell.h */,
+				189C81721E1655A700DF089B /* XCPCalendarScrollViewCell.m */,
+				189C81731E1655A700DF089B /* XCPDateTools.h */,
+				189C81741E1655A700DF089B /* XCPDateTools.m */,
+				189C81751E1655A700DF089B /* XCPDateView.h */,
+				189C81761E1655A700DF089B /* XCPDateView.m */,
+				189C81771E1655A700DF089B /* XCPLinearView.h */,
+				189C81781E1655A700DF089B /* XCPLinearView.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,18 +290,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				189C817E1E1655A700DF089B /* XCPCalendarScrollViewCell.m in Sources */,
 				187320DE1E1117BA0093A86D /* ViewController.m in Sources */,
-				187321091E111A050093A86D /* XCPDateTools.m in Sources */,
-				1873210F1E111A830093A86D /* XCPLinearView.m in Sources */,
+				189C81801E1655A700DF089B /* XCPDateView.m in Sources */,
+				189C817D1E1655A700DF089B /* XCPCalendarScrollView.m in Sources */,
+				189C817C1E1655A700DF089B /* HomeCalendarViewController.m in Sources */,
 				187320E41E1117BA0093A86D /* XCPCalendar.xcdatamodeld in Sources */,
+				189C817F1E1655A700DF089B /* XCPDateTools.m in Sources */,
 				187320DB1E1117BA0093A86D /* AppDelegate.m in Sources */,
-				187321191E11264E0093A86D /* HomeCalendarViewController.m in Sources */,
-				187321121E111AC00093A86D /* XCPCalendarScrollView.m in Sources */,
-				1873210C1E111A240093A86D /* XCPDateView.m in Sources */,
-				187321001E1118C10093A86D /* XCPCellDateModel.m in Sources */,
-				187321151E111AE50093A86D /* XCPCalendarScrollViewCell.m in Sources */,
+				189C817A1E1655A700DF089B /* XCPCellDateModel.m in Sources */,
 				187320D81E1117BA0093A86D /* main.m in Sources */,
-				187321061E1119B30093A86D /* XCPDateModel.m in Sources */,
+				189C817B1E1655A700DF089B /* XCPDateModel.m in Sources */,
+				189C81811E1655A700DF089B /* XCPLinearView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,6 +494,7 @@
 				187320FA1E1117BA0093A86D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		187320FB1E1117BA0093A86D /* Build configuration list for PBXNativeTarget "XCPCalendarUITests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +503,7 @@
 				187320FD1E1117BA0093A86D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
