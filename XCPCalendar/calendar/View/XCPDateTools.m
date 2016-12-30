@@ -70,7 +70,6 @@
 +(NSDateComponents *)getCellMonthDate:(NSInteger)deviation
 {
     NSDateComponents *comps = [XCPDateTools getCurrentDate:deviation];
-    //    NSLog(@"%@",comps);
     NSInteger month = [comps month];
     NSInteger year = [comps year];
     NSInteger yearDeviation;

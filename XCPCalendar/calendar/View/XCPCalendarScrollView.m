@@ -48,13 +48,11 @@
         _visiableCells = [[NSMutableArray alloc] init];
         _reusableTableCells = [[NSMutableDictionary alloc] initWithCapacity:2];
         _subViewContainerView = [[UIView alloc] init];
-        //        _subViewContainerView.backgroundColor = [UIColor redColor];
         self.subViewContainerView.frame = CGRectMake(0, 0, self.contentSize.width, self.contentSize.height);
         [self addSubview:self.subViewContainerView];
         
         [self.subViewContainerView setUserInteractionEnabled:YES];
         
-        // hide horizontal scroll indicator so our recentering trick is not revealed
         [self setShowsVerticalScrollIndicator:NO];
     }
     return self;
@@ -62,7 +60,6 @@
 
 #pragma mark - Layout
 
-// recenter content periodically to achieve impression of infinite scrolling
 - (void)recenterIfNecessary
 {
     CGPoint currentOffset = [self contentOffset];
@@ -74,7 +71,7 @@
     {
         self.contentOffset = CGPointMake(currentOffset.x, centerOffsetY);
         
-        // move content by the same amount so it appears to stay still
+        
         for (UIView *view in self.visiableCells) {
             CGPoint center = [self.subViewContainerView convertPoint:view.center toView:self];
             center.y += (centerOffsetY - currentOffset.y);

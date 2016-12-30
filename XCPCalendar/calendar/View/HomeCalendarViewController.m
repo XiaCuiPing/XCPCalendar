@@ -41,6 +41,7 @@ NSString *const CalendarCellIdentifier = @"cell";
 
 -(UIView *)getTitleView
 {
+    //
     NSArray *titleArry = @[@"周日",@"一",@"二",@"三",@"四",@"五",@"六"];
     CGFloat width = SWIDTH / 7;
     UIView *weekView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, SWIDTH, SHEIGHT-50)];
@@ -158,7 +159,7 @@ NSString *const CalendarCellIdentifier = @"cell";
 
 -(void)didSelectedWithDeviation:(NSInteger)deviation calendarScrollView:(XCPCalendarScrollView *)calendarScrollView
 {
-    //    NSLog(@"%ld",(long)deviation);
+        NSLog(@"%ld",(long)deviation);
 }
 
 -(void)calendarScrollViewArriveTopVisible:(NSInteger)deviation
