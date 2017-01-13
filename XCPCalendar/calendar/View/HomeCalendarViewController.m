@@ -115,11 +115,8 @@ NSString *const CalendarCellIdentifier = @"cell";
         case 6:
             str_week = @"周六";
             break;
-        case 7:
-            str_week = @"周日";
-            break;
-            
         default:
+            str_week = @"周日";
             break;
     }
     
